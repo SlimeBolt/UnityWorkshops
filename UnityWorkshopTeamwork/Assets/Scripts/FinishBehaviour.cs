@@ -11,6 +11,6 @@ public class FinishBehaviour : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Wintext.text = "Congratulations, you won!" + timer.text;
+        Wintext.text = "Congratulations, you won!       " + timer.text;
     }
 }

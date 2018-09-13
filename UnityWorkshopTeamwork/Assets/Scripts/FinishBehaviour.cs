@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.UI;
 
 public class FinishBehaviour : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
+    public Text Wintext;
+    public Text timer;
+
     private void OnTriggerEnter(Collider other)
     {
-        //EditorUtility.DisplayDialog("Congratulations", "You've won the game!", "Continue", "Continue");
+        Wintext.text = "Congratulations, you won!" + timer.text;
     }
 }

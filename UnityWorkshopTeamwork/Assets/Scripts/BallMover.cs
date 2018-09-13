@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BallMover : MonoBehaviour {
 
     // Use this for initialization
-    public float speed = 5.0f;
+    public float speed = 10.0f;
+
+    public Text timer;
+
+    private int counter = 0;
 
     private bool isGrounded = true;
 
@@ -19,10 +24,13 @@ public class BallMover : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Vertical");
-        float moveVertical = Input.GetAxis("Horizontal");
+        counter++;
+        timer.text = "Time: " + counter;
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical) * 5;
+        float moveVertical  = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("Horizontal");
+
+        Vector3 movement = new Vector3(moveVertical, 0.0f, moveHorizontal);
 
         rb.AddForce(movement * speed);
     }

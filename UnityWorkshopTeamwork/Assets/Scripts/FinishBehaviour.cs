@@ -12,6 +12,6 @@ public class FinishBehaviour : MonoBehaviour {
 	
     private void OnTriggerEnter(Collider other)
     {
-        EditorUtility.DisplayDialog("Congratulations", "You've won the game!", "Continue", "Continue");
+        //EditorUtility.DisplayDialog("Congratulations", "You've won the game!", "Continue", "Continue");
     }
 }

@@ -1,9 +1,10 @@
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-Assets/AssetStoreTools*
+UnityWorkshopTeamwork/[Ll]ibrary/
+UnityWorkshopTeamwork/[Tt]emp/
+UnityWorkshopTeamwork/[Oo]bj/
+UnityWorkshopTeamwork/[Bb]uild/
+UnityWorkshopTeamwork/[Bb]uilds/
+UnityWorkshopTeamwork/Assets/AssetStoreTools*
+UnityWorkshopTeamwork/Temp/
 
 # Visual Studio cache directory
 .vs/
@@ -29,7 +30,7 @@ ExportedObj/
 *.pdb.meta
 
 # Unity3D Generated File On Crash Reports
-sysinfo.txt
+UnityWorkshopTeamwork/sysinfo.txt
 
 # Builds
 *.apk

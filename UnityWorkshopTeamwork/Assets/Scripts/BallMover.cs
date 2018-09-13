@@ -5,9 +5,9 @@ using UnityEngine;
 public class BallMover : MonoBehaviour {
 
     // Use this for initialization
-    public float speed;
+    public float speed = 5.0f;
 
-    private bool isGrounded;
+    private bool isGrounded = true;
 
     private Rigidbody rb;
 
@@ -19,9 +19,8 @@ public class BallMover : MonoBehaviour {
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-        
+        float moveHorizontal = Input.GetAxis("Vertical");
+        float moveVertical = Input.GetAxis("Horizontal");
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 

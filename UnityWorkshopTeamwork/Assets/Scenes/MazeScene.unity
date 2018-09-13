@@ -477,7 +477,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4942182730132300, guid: 0b88b384d74cc094096ca533227cb268, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -37.479694
+      value: -37.5
       objectReference: {fileID: 0}
     - target: {fileID: 4942182730132300, guid: 0b88b384d74cc094096ca533227cb268, type: 2}
       propertyPath: m_LocalPosition.y
@@ -485,7 +485,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4942182730132300, guid: 0b88b384d74cc094096ca533227cb268, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -16.88965
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 4942182730132300, guid: 0b88b384d74cc094096ca533227cb268, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2755,7 +2755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5830685, g: 1, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.048927307, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2775,7 +2775,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Time:'
+  m_Text: 
 --- !u!222 &1509657371
 CanvasRenderer:
   m_ObjectHideFlags: 0

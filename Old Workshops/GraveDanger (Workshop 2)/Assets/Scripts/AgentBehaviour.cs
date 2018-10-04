@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class AgentBehaviour : MonoBehaviour
 {
-
     NavMeshAgent agent;
 
     public PlayerHealth playerHealth;

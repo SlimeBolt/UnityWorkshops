@@ -4,8 +4,7 @@ using System.Collections;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-[CreateAssetMenu(fileName = "Health", menuName = "Player/Health", order = 1)]
-public class PlayerHealth : ScriptableObject
+public class PlayerHealth : MonoBehaviour
 {
     public int startingHealth = 100;                            // The amount of health the player starts the game with.
     public int currentHealth;                                   // The current health the player has.
